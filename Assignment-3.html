@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button Recreation</title>
+    <style>
+        /* General Button Styling */
+        button {
+            font-family: Arial, sans-serif;
+            font-size: 16px;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        /* Container for horizontal alignment */
+        .button-container {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        /* Uber Button (Opacity) */
+        .btn-uber {
+            background-color: black;
+            color: white;
+            border: none;
+            opacity: 0.7;
+        }
+
+        .btn-uber:hover {
+            opacity: 1;
+        }
+
+        /* Amazon Button (Background Color) */
+        .btn-amazon {
+            background-color: #f0c14b;
+            color: #111;
+            border: 1px solid #a88734;
+        }
+
+        .btn-amazon:hover {
+            background-color: #e2b43c;
+        }
+
+        /* GitHub Button (Shadow) */
+        .btn-github {
+            background-color: #28a745;
+            color: white;
+            border: none;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .btn-github:hover {
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+        }
+
+        /* Bootstrap Button (Background and Text Color) */
+        .btn-bootstrap {
+            background-color: #563d7c;
+            color: white;
+            border: none;
+        }
+
+        .btn-download {
+            background-color: #f8f9fa;
+            color: #000;
+            border: 1px solid #ddd;
+        }
+
+        .btn-download:hover {
+            background-color: #e2e6ea;
+        }
+
+        /* LinkedIn Button (Background, Border Width) */
+        .btn-linkedin {
+            background-color: #0077b5;
+            color: white;
+            border: 2px solid #006699;
+        }
+
+        .btn-save {
+            background-color: white;
+            color: #0077b5;
+            border: 2px solid #0077b5;
+        }
+
+        .btn-save:hover {
+            background-color: #f0f0f0;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Button Container to align buttons horizontally -->
+    <div class="button-container">
+        <!-- Uber Button -->
+        <button class="btn-uber">Request Now</button>
+
+        <!-- Amazon Button -->
+        <button class="btn-amazon">Add to Cart</button>
+
+        <!-- GitHub Button -->
+        <button class="btn-github">Sign Up</button>
+
+        <!-- Bootstrap Buttons -->
+        <button class="btn-bootstrap">Get Started</button>
+        <button class="btn-download">Download</button>
+
+        <!-- LinkedIn Buttons -->
+        <button class="btn-linkedin">Apply on Company Website</button>
+        <button class="btn-save">Save</button>
+    </div>
+
+</body>
+</html>
