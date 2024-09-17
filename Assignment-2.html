@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Basics - Button Recreation</title>
+    <style>
+        /* Uber Button */
+        .uber-btn {
+            background-color: black;
+            color: white;
+            border: 2px solid black;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        /* Amazon Button */
+        .amazon-btn {
+            background-color: rgb(255, 216, 20);
+            color: black;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        /* GitHub Button */
+        .github-btn {
+            background-color: rgb(46, 164, 79);
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        /* Bootstrap Buttons */
+        .bootstrap-btn {
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        .bootstrap-btn.purple {
+            background-color: rgb(121, 82, 179);
+            color: white;
+        }
+
+        .bootstrap-btn.grey {
+            background-color: rgb(108, 117, 125);
+            color: white;
+        }
+
+        /* LinkedIn Buttons */
+        .linkedin-btn {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        .linkedin-btn.blue {
+            background-color: rgb(10, 102, 194);
+            color: white;
+            border: none;
+        }
+
+        .linkedin-btn.save {
+            background-color: white;
+            color: rgb(108, 117, 125);
+            border: 1px solid rgb(108, 117, 125);
+        }
+
+        /* Nike Black Running Shoes Section */
+        .product-card {
+            border: 1px solid rgb(216, 216, 216);
+            padding: 20px;
+            width: 300px;
+            font-family: Arial, sans-serif;
+            margin-top: 20px;
+        }
+
+        .back-to-amazon {
+            color: rgb(0, 113, 133);
+            text-decoration: none;
+            font-size: 14px;
+        }
+
+        h2 {
+            font-size: 18px;
+            font-weight: bold;
+            color: black;
+        }
+
+        .price {
+            color: rgb(0, 118, 0);
+            font-weight: bold;
+        }
+
+        .in-stock {
+            color: rgb(118, 216, 118);
+        }
+
+        .buy-now-btn {
+            background-color: rgb(255, 164, 28);
+            color: black;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        .buttons {
+            margin-bottom: 30px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Button Recreation Using CSS</h1>
+
+    <div class="buttons">
+        <h2>Uber Button</h2>
+        <button class="uber-btn">Request Now</button>
+
+        <h2>Amazon Button</h2>
+        <button class="amazon-btn">Add to Cart</button>
+
+        <h2>GitHub Button</h2>
+        <button class="github-btn">Sign up</button>
+
+        <h2>Bootstrap Buttons</h2>
+        <button class="bootstrap-btn purple">Get Started</button>
+        <button class="bootstrap-btn grey">Download</button>
+
+        <h2>LinkedIn Buttons</h2>
+        <button class="linkedin-btn blue">Apply on company website</button>
+        <button class="linkedin-btn save">Save</button>
+    </div>
+
+    <h2>Challenge Exercise: Nike Black Running Shoes</h2>
+    <div class="product-card">
+        <a href="#" class="back-to-amazon">Back to Amazon</a>
+        <h2>Nike Black Running Shoes</h2>
+        <p><span class="price">$39</span> - <span class="in-stock">in stock.</span></p>
+        <p>Free delivery tomorrow.</p>
+        <button class="amazon-btn">Add to Cart</button>
+        <button class="buy-now-btn">Buy Now</button>
+    </div>
+
+</body>
+</html>
